@@ -61,9 +61,9 @@ input:focus::placeholder {
 form button {
   border: none;
   background: #419bb4;
-  width: 85%;
+  width: 90%;
   padding: 5px 0;
-  margin-top: 5px;
+  margin-top: 15px;
   color: #fff;
   border-radius: 3px;
   font-weight: bold;
@@ -75,4 +75,46 @@ form button {
 form button:active {
   background: #2c58fe;
   transform: scale(0.995);
+}
+form .option {
+  color: #5a5a5a;
+  margin: 10px 0;
+  font-weight: bold;
+  position: relative;
+}
+form .option:before {
+  position: absolute;
+  content: "";
+  width: 37%;
+  height: 1px;
+  background: #b6b6b6;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 40px;
+}
+form .option:after {
+  position: absolute;
+  content: "";
+  width: 37%;
+  height: 1px;
+  background: #b6b6b6;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 40px;
+}
+form .fieldset-1 .fb-link {
+  margin-top: 15px;
+  width: 100%;
+}
+form .fieldset-1 .fb-link span {
+  font-size: 18px;
+  color: #021897;
+  margin-right: 5px;
+}
+.fieldset-1 .fb-link a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #021897;
 }
