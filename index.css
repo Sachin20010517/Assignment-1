@@ -6,17 +6,7 @@ body {
   align-items: center;
   justify-content: center;
 }
-#fieldset-1 {
-  text-align: center;
-  padding: 20px;
-}
-.title h1 {
-  padding: 20px 0;
-  text-transform: capitalize;
-  font-size: 2.5rem;
-  font-family: "Pacifico", cursive;
-  color: #222121;
-}
+
 form {
   width: 350px;
   display: flex;
@@ -24,6 +14,22 @@ form {
   position: relative;
   transform: translate(-50%);
 }
+#fieldset-1 {
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 10px;
+  border-width: thin;
+}
+
+.title h1 {
+  padding: 20px 0;
+  text-transform: capitalize;
+  font-size: 2.5rem;
+  font-weight: 200;
+  font-family: "Pacifico", cursive;
+  color: #222121;
+}
+
 form input {
   margin-bottom: 5px;
   border: 1px solid rgba(0, 0, 0, 0.4);
@@ -60,7 +66,7 @@ input:focus::placeholder {
 }
 form button {
   border: none;
-  background: #419bb4;
+  background: #4eecfc;
   width: 90%;
   padding: 5px 0;
   margin-top: 15px;
@@ -104,17 +110,44 @@ form .option:after {
   transform: translateY(-50%);
   border-radius: 40px;
 }
-form .fieldset-1 .fb-link {
+.fb-link {
   margin-top: 15px;
   width: 100%;
+  margin-bottom: 10px;
 }
-form .fieldset-1 .fb-link span {
-  font-size: 18px;
-  color: #021897;
+.fb-link span {
+  font-size: 20px;
   margin-right: 5px;
 }
-.fieldset-1 .fb-link a {
+
+.fb-link a {
   text-decoration: none;
   font-weight: bold;
-  color: #021897;
+  color: #1d4e83;
+}
+.forget-psw {
+  margin-bottom: -5px;
+}
+.forget-psw a {
+  text-decoration: none;
+  font-weight: 50;
+  color: #4e4e4f;
+}
+#fieldset-2 {
+  text-align: center;
+  padding: 10px;
+  border-width: thin;
+}
+.get-app {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+#play {
+  width: 130px;
+  height: 40px;
+}
+#microsoft {
+  width: 115px;
+  height: 45px;
 }
