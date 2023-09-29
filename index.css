@@ -138,6 +138,14 @@ form .option:after {
   padding: 10px;
   border-width: thin;
 }
+
+p span a {
+  text-decoration: none;
+  color: rgb(31, 151, 194);
+  font-weight: 1000;
+  padding: 10px;
+}
+
 .get-app {
   display: flex;
   flex-direction: column;
